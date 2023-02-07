@@ -29,5 +29,12 @@ namespace ApiDemo.Controllers
             })
             .ToArray();
         }
+
+        [HttpPost(Name = "Post")]
+        public object Post(string queryString)
+        {
+            var res = new { input = queryString, outPut = "HelloWorld" };
+            return res;
+        }
     }
 }
