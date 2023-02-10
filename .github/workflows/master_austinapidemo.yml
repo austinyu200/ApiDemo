@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'AustinApiDemo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E7B9E648A1E24EB5ACF3ABEFB6E742BE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1BCA9DC3869F4B92BC22990396889908 }}
           package: .
